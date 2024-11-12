@@ -1,0 +1,114 @@
+.intro{
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  flex-direction: column;        
+  height: 100vh; 
+
+}
+
+.bg-intro{
+  background: url(../assets/img/Background_Intro.png);           
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.info{
+  width: 100%;
+  max-width: 1040px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+
+span{
+  color: var(--red);
+}
+
+.t-profile p, h1{
+  text-align: center;
+}
+
+.t-profile h1{
+  padding-top: 8px;
+  color: var(--gray-600);
+}
+
+.d-profile{
+  padding-top: 20px;
+  max-width: 680px;
+}
+
+.d-profile p{
+  text-align: center;
+  color: var(--gray-400);
+}
+
+footer{
+  display: flex;
+  gap: 16px;
+}
+
+.intro footer{
+  margin-top: 80px;
+}
+
+.contact-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 16px;
+  max-height: 40px;
+  border-radius: 30px;
+  gap: 8px;
+  background: var(--gray-300);
+}
+
+.contact-button:hover{
+  background-color: var(--gray-500);
+  transition: 0.5s ease-in-out;
+}
+
+.ico-git img,
+.ico-html,
+.ico-css,
+.ico-js,
+.ico-react,
+.ico-ndj{
+  object-fit: cover;
+  max-width: 24px;
+}
+
+.next-page{
+  margin-top: 99.5px;
+}
+
+.next-page img{
+  max-width: 23px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+/* titles | subtitle*/
+.title-lg{
+  font-family: var(--asap);
+  font-size: 56px;
+  line-height: 120%;
+  font-weight: bold;
+}
+
+
+.title-md{
+  font-family: var(--asap);
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: bold;
+}
+
+.title-sm{
+  font-family: var(--asap);
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: bold;
+}
+
+.subtitle{
+  font-family: var(--inconsolata);
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+  color: var(--gray-500);
+}
+
+.text-md{
+  font-family: var(--mavenPro);
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 400;
+  color: var(--gray-400);
+}
+
+.text-sm{
+  font-family: var(--mavenPro);
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 400;
+}
+
+footer{
+  flex: column;
+}
+
