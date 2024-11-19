@@ -1,0 +1,104 @@
+.projects{
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  flex-direction: column;        
+  height: 100vh; 
+  background-color: var(--gray-200);
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.works-header{
+  margin-bottom: 56px;
+}
+
+.projects header h3{
+  color: var(--red);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.projects header h2{
+  color: var(--gray-600);
+}
+
+.all-projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* width: 100%; */
+  gap: 24px;
+}
+
+.projects a{
+  display: block  ;
+}
+
+.projects a:hover{
+  filter: brightness(0.8);
+}
+
+.projects a{
+  transition: 0.3s ease-in-out;
+}
+
+.p-travelgram,
+.p-tnews,
+.p-revenue,
+.p-zingen,
+.p-refund,
+.p-tourism{
+  background-color: var(--gray-300);
+  padding: 12px 12px 17px 12px;
+  max-width: 330px;
+  border-radius: 12px;
+}
+
+.p-travelgram img,
+.p-tnews img,
+.p-revenue img,
+.p-zingen img,
+.p-refund img,
+.p-tourism img{
+  width: 100%;
+  object-fit: cover;
+  /* margin-bottom: 20px;
+  border-radius: 8px; */
+}
+
+.img-container img{
+  transition: 0.3s ease-in-out;
+}
+
+.img-container:hover img{
+  transform: scale(1.1);
+}
+
+.img-container{
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  height: 156px;
+}
+
+.d-travelgram h3,
+.d-tnews h3,
+.d-revenue h3,
+.d-zingen h3,
+.d-refund h3,
+.d-tourism h3{ 
+  color: var(--gray-600);
+  margin-bottom: 8px;
+}
+
+.d-travelgram p,
+.d-tnews p,
+.d-revenue p,
+.d-zingen p,
+.d-refund p,
+.d-tourism p{
+  color: var(--gray-500);
+  margin-bottom: 4px;
+}
+
+

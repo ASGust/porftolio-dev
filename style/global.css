@@ -24,6 +24,10 @@
   --mavenPro: "Maven Pro", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background: var(--gray-300);
 }
@@ -36,6 +40,10 @@ button{
   font: inherit;
   cursor: pointer;
   outline: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 
