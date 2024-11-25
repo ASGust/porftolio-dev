@@ -1,0 +1,101 @@
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  flex-direction: column;        
+  height: 100vh; 
+  padding-top: 128px;
+}
+
+.bg-about{
+  background: url(../assets/img/Background_Contacts.png);           
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about header{
+  margin-bottom: 48px;
+}
+
+.about header h3{
+  color: var(--purple);
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.about header h2{
+  color: var(--gray-600);
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.about header p{
+  color: var(--gray-500);
+  text-align: center;
+}
+
+.social{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.social a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--gray-300);
+}
+
+.social a:hover{
+  filter: brightness(0.8);
+}
+
+.social a{
+  transition: 0.3s ease-in-out;
+}
+
+.linkedin,
+.instagram,
+.github,
+.email{
+  width: 400px;
+  border-radius: 12px;
+}
+
+
+.d-linkedin,
+.d-instagram,
+.d-github,
+.d-email{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 12px;
+}
+
+.d-linkedin img,
+.d-instagram img,
+.d-github img,
+.d-email img{
+  max-width: 28px;
+  object-fit: cover;
+}
+
+.d-linkedin p,
+.d-instagram p,
+.d-github p,
+.d-email p{
+  color: var(--gray-500);
+}
+
+.arrow img{
+  max-width: 20px;  
+  margin: 24px 20px 24px 12px;
+}
+
+
+
+
+
