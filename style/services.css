@@ -1,0 +1,75 @@
+.services{
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  flex-direction: column;        
+  height: 100vh; 
+  background-color: var(--gray-100);
+  padding-top: 88px;
+  padding-bottom: 120px;
+}
+
+.borderServices{
+  border: solid 1px;
+  border-color: var(--gray-200);
+  border-radius: 12px;
+}
+
+.services header{
+  margin-bottom: 56px;
+}
+
+.services header h3{
+  color: var(--red);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.services header h2{
+  color: var(--gray-600)
+}
+
+.skills{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.skills a{
+  display: block;
+}
+
+.skills a:hover{
+  background-color: var(--gray-300);
+}
+
+.skills a{
+  transition: 0.3s ease-in-out;
+}
+
+.skills img,
+.bd img,
+.devOps img{
+  max-width: 48px;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+
+.devices,
+.bd,
+.devOps{
+  padding: 20px;
+  stroke: var(--gray-600);
+}
+
+.d-devices h3,
+.d-bd h3,
+.devOps h3{
+  color: var(--gray-600);
+}
+
+.d-devices p,
+.d-bd p,
+.devOps p{
+  color: var(--gray-500);
+}
