@@ -3,10 +3,9 @@
   align-items: center;
   justify-content: center;   
   flex-direction: column;        
-  height: 100vh; 
   background-color: var(--gray-100);
-  padding-top: 88px;
-  padding-bottom: 120px;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .borderServices{
